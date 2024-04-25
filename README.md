@@ -5,7 +5,7 @@ In the evolving social media landscape, hate speech detection presents a multifa
 To develop a system with good capability of hate speech detection by including visual content analysis and textual analysis,
 improve the model’s ability to understand the context in which hate speech occurs, specifically in visual content, and to create a safer online environment.
 # DATA OVERVIEW
-The dataset consists of 1,50,000 tweets annotated by 3 annotators using the platform of Amazon Mechanical Truck. It consists of tweet text, image text, and images. It has 5 fields namely img_url, labels, tweet_url, tweet_text and labels_str.
+The dataset (MMHS150K) consists of 1,50,000 tweets annotated by 3 annotators using the platform of Amazon Mechanical Truck. It consists of tweet text, image text, and images. It has 5 fields namely img_url, labels, tweet_url, tweet_text and labels_str.
 The labels are an array of length 3 denoting classes 0 to 5.The labels_str is the array with three labels string consisting of label definitions for each class.
 # METHODLOGY
 1) For texts preprocessing is done using methods like tokenization, padding, removal of stop words, stemming, and lemmatization.
